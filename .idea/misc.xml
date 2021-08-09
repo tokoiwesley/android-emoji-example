@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../.gradle/caches/transforms-3/31da0d74261f59982e09a40226b5b1e5/transformed/jetified-emoji-0.7.0/res/layout/emoji_view.xml" value="0.29907407407407405" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/emoji_text_view.xml" value="0.29907407407407405" />
       </map>
     </option>
   </component>
