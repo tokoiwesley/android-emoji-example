@@ -49,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
                 EmojiTextView emojiTextView = (EmojiTextView) LayoutInflater
                         .from(v.getContext())
                         .inflate(R.layout.emoji_text_view, mLinearLayout, false);
+
+                // Set text on emoji text view
+                emojiTextView.setText(mEmojiEt.getText().toString());
+
+                // Add view to linear layout
+                mLinearLayout.addView(emojiTextView);
+
+                // Cleat edit text value
+                mEmojiEt.getText().clear();
             }
         });
     }
